@@ -1,0 +1,155 @@
+
+
+body{
+
+    margin: 0;
+    font-size: 15px;
+    background-color:aliceblue;
+    text-align: center;
+    
+    
+}
+
+
+
+
+header{
+
+
+    height: 550px;
+    color: blueviolet;
+    background-color: aquamarine;
+    padding-top: 10px;
+    font-weight: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+
+
+
+
+h1{
+
+    font-size: 32px;
+    color:burlywood;
+}
+
+
+
+.button{
+
+
+    height: 25px;
+    border: none;
+    width: 40;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 35px;
+    text-align: center;
+    
+    
+    
+}
+
+header h1{
+
+    margin: 0px;
+    image-rendering: top;
+    text-align: center;
+
+    }
+
+
+
+.button:hover{
+
+    color: white;
+    background-color: brown;
+}
+
+img{
+
+    height: 100px;
+    
+}
+
+section{
+
+    height: 115vh;
+    border: 1px solid blue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+
+form div{
+
+    margin: 15px 0;
+}
+
+.submit{
+
+    height: 25px;
+    border: none;
+    width: 40;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: chocolate;
+    
+
+}
+
+.submit:hover{
+
+    color: white;
+    background-color: brown;
+
+
+    
+}
+
+input{
+
+    border-radius: 5px;
+    height: 25px;
+    border: 1px solid lightgray;
+
+
+}
+
+.fixedButton{
+
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    background-color:brown;
+
+
+
+}
+
+footer{
+
+    background-color:blueviolet;
+    height: 200px;
+    padding: 20px;
+    color: lightgray;
+}
+
